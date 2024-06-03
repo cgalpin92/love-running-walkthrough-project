@@ -101,6 +101,8 @@ main {
     background-color: lightblue;
     /* for the main part of the body to take up any surplus space (push the footer down), not to shrink when the screen is too small to show all */
     flex: 1 0 auto;
+    /* pushes the content below the header */
+    margin-top: 47px;
 }
 
 /* Footer */
