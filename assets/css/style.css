@@ -21,7 +21,18 @@ body {
 
 /* Header */
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    /* To prevent the text from sticking to the side of the screen */
+    padding: 0 1rem;
+    /* As we want the Nav bar to scroll along */
+    position: fixed;
+    /* so that its layered on top of any other elements */
+    z-index: 99;
+    /* so that it covers the whole length of the page */
+    width: 100%;
+    /* gives the impression that there is some depth in format, giving better visual experience */
+    box-shadow: 0 2px 2px #3a3a3a;
+
 }
 
 h1 {
