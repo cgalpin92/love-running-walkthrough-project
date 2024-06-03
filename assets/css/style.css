@@ -106,9 +106,29 @@ main {
 }
 
 /* Footer */
+
 footer {
-    background-color: orange;
+    background-color: #ffffff;
 }
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    /* spreads the icons out along the bottom of the page */
+    justify-content: space-evenly;
+    /* removes the bullet points from the list */
+    list-style: none;
+}
+
+/* targets all the i element decendants of the social network list */
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
