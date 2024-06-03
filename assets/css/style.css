@@ -34,6 +34,13 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 
 }
+/* rule for any a type that is a decendant of the header */
+header a {
+    /* removes the link underscore line in the header */
+    text-decoration: none;
+    /* set the text color to inherit from the body, removes the default color applied by the browser */
+    color: inherit;
+}
 
 h1 {
     font-family: 'Oswald', sans-serif;
