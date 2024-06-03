@@ -109,4 +109,26 @@ main {
 footer {
     background-color: orange;
 }
-
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;   
+    }
+    /* so that the items in the menu sit side by side rather than in a list (because they now have room too)*/
+    #menu {
+        display: flex;
+    }
+    /* to give the items in the menu some space between each item */
+    #menu > li {
+        padding-left: 1rem;
+    }
+    /* to hide the menu icon as because the menu items are all displayed (because the display is large enough) so the menu icon is no longer needed */
+    .nav-toggle-label {
+        display: none;
+    }
+}
