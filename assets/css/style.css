@@ -32,6 +32,9 @@ header {
     width: 100%;
     /* gives the impression that there is some depth in format, giving better visual experience */
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 
 }
 /* rule for any a type that is a decendant of the header */
@@ -75,6 +78,22 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     /* so that the navbar list is hidden until clicked */
     display: none;
+    /* Tells the element to begin at the bottom of its parent, in this case the header - stops the menu from removing the header when checked */
+    top: 100%;
+}
+
+/* nav toggle when its selected */
+#nav-toggle:checked~nav {
+    display: block;
+} 
+/* to hid the nav toggle checkbox */
+#nav-toggle {
+    display: none;
+}
+
+/* Make the label larger so that its easier to tap */
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main Content */
