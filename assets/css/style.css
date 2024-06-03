@@ -131,4 +131,14 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+    /* as we have more space on the larger screen, make the title (logo) bigger*/
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /* Main Content */
+    main {
+        margin-top: 79px;
+    }
 }
