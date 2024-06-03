@@ -55,6 +55,16 @@ h1 {
     list-style-type: none;
 }
 
+/* targeting the list items inside the menu */
+#menu > li {
+    /* spacing them out vertically */
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 /* Main Content */
 main {
     background-color: lightblue;
